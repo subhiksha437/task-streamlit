@@ -20,16 +20,16 @@ st.button("Completed task 5")
 st.write(" 6. Extract actionable insights from the survey findings to inform decision-making. ")
 st.button("Completed task 6")
 
-st.write("")
+st.write(" 7. Share the survey results with key stakeholders, such as product teams and senior management.")
 st.button("Completed task 7")
 
-st.write(" ")
+st.write(" 8. Use customer feedback to prioritize product enhancements or service improvements. ")
 st.button("Completed task 8")
 
-st.write(" ")
+st.write(" 9. Implement changes based on customer input and communicate updates to customers. ")
 st.button("Completed task 9")
 
-st.write(" ")
+st.write(" 10. Follow up with customers to measure the impact of changes and gather additional feedback. ")
 st.button("Completed task 10")
 st.button("Next Stage")
 
