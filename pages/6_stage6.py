@@ -15,22 +15,47 @@ st.write(" 4. Consider applying for a patent if your idea is innovative and meet
 st.button("Completed task 4")
 
 st.write(" 5. Prepare the necessary documentation and drawings for the patent application. ")
-st.button("Completed task 5")
+option = st.selectbox(
+    ' ?',
+    ('yess', 'NO'))
+st.write('You selected:', option)
+if option=='YES':
+    st.button("Completed task 5")
 
 st.write(" 6. Work with a patent attorney to draft and file the patent application. ")
-st.button("Completed task 6")
+option = st.selectbox(
+    ' ?',
+    ('Yup', 'NO'))
+st.write('You selected:', option)
+if option=='YES':
+    st.button("Completed task 6")
 
 st.write(" 7. Respond to any office actions or objections from patent examiners.")
-st.button("Completed task 7")
+option = st.selectbox(
+    ' ?',
+    ('YEah', 'NOt'))
+st.write('You selected:', option)
+if option=='YES':
+    st.button("Completed task 7")
 
 st.write(" 8. Monitor the progress of the patent application and address any issues that arise. ")
 st.button("Completed task 8")
 
 st.write(" 9. Explore international patent protection if you plan to expand globally.")
-st.button("Completed task 9")
+option = st.selectbox(
+    ' ?',
+    ('Y', 'N'))
+st.write('You selected:', option)
+if option=='YES':
+    st.button("Completed task 9")
 
 st.write(" 10. Once granted, enforce your patent rights against any infringement. ")
-st.button("Completed task 10")
+option = st.selectbox(
+    ' ?',
+    ('YEss', 'NOo'))
+st.write('You selected:', option)
+if option=='YES':
+    st.button("Completed task 10")
 if st.button("Continue with task 7"):
     st.switch_page("pages/7_stage7.py")
 

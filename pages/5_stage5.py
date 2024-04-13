@@ -18,7 +18,12 @@ st.write(" 5. Ensure consistency in design elements and branding. ")
 st.button("Completed task 5")
 
 st.write(" 6. Test the prototype with potential users to identify usability issues. ")
-st.button("Completed task 6")
+option = st.selectbox(
+    ' ?',
+    ('YES', 'NO'))
+st.write('You selected:', option)
+if option=='YES':
+    st.button("Completed task 6")
 
 st.write(" 7. Iterate on the prototype based on user feedback.")
 st.button("Completed task 7")

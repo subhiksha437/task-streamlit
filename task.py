@@ -42,7 +42,7 @@ def nl(num_of_lines):
     for i in range(num_of_lines):
         st.write(" ")
 
-st.header("STAGE PREDICTION ASESSMENT")
+st.header("INSTRUCTIONS FOR ASESSMENT TEST")
 
 nl(1)
 
@@ -55,5 +55,5 @@ st.markdown("""
 
 # Create Placeholder to print test score
 scorecard_placeholder = st.empty()
-if st.button("Start with task 1"):
+if st.button("Start with tasks"):
     st.switch_page("pages/1_stage1.py")

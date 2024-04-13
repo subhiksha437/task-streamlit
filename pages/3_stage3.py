@@ -15,27 +15,27 @@ st.write(" 4. Tailor the pitch deck to the specific needs of potential investors
 st.button("Completed task 4")
 
 st.write(" 5. Practice presenting the pitch deck to refine your delivery. ")
-title = st.text_input('', '')
+title = st.text_input('????', '')
 st.button("Completed task 5")
 
 st.write(" 6. Incorporate feedback from mentors or advisors to improve the pitch deck. ")
-title = st.text_input('', '')
+title = st.text_input('???', '')
 st.button("Completed task 6")
 
 st.write(" 7. Ensure consistency in branding and messaging throughout the pitch deck.")
-title = st.text_input('', '')
+title = st.text_input('??', '')
 st.button("Completed task 7")
 
 st.write(" 8. Highlight the unique selling points and competitive advantages of your startup. ")
-title = st.text_input('', '')
+title = st.text_input('Did you do?', '')
 st.button("Completed task 8")
 
 st.write(" 9. Use storytelling techniques to engage investors and create a memorable impression. ")
-title = st.text_input('', '')
+title = st.text_input('Completed?', '')
 st.button("Completed task 9")
 
 st.write(" 10. Prepare additional materials, such as a one-pager or executive summary, to complement the pitch deck. ")
-title = st.text_input('', '')
+title = st.text_input('Did you ?', '')
 st.button("Completed task 10")
 if st.button("Continue with task 4"):
     st.switch_page("pages/4_stage4.py")
