@@ -31,7 +31,8 @@ st.button("Completed task 9")
 
 st.write(" 10. Document the development process and any technical challenges encountered. ")
 st.button("Completed task 10")
-st.button("Next Stage")
+if st.button("Continue with task 8"):
+    st.switch_page("pages/8_stage8.py")
 
 
 

@@ -31,7 +31,8 @@ st.button("Completed task 9")
 
 st.write(" 10. Prepare for questions and objections from investors during the pitch. ")
 st.button("Completed task 10")
-st.button("Next Stage")
+if st.button("Continue with task 15"):
+    st.switch_page("pages/15_stage15.py")
 
 
 

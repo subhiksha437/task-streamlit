@@ -31,7 +31,8 @@ st.button("Completed task 9")
 
 st.write(" 10. Follow up with customers to measure the impact of changes and gather additional feedback. ")
 st.button("Completed task 10")
-st.button("Next Stage")
+if st.button("Continue with task 13"):
+    st.switch_page("pages/13_stage13.py")
 
 
 

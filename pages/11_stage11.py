@@ -31,7 +31,8 @@ st.button("Completed task 9")
 
 st.write(" 10. Continuously iterate and improve your implementation approach based on lessons learned. ")
 st.button("Completed task 10")
-st.button("Next Stage")
+if st.button("Continue with task 12"):
+    st.switch_page("pages/12_stage12.py")
 
 
 

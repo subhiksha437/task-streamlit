@@ -55,4 +55,5 @@ st.markdown("""
 
 # Create Placeholder to print test score
 scorecard_placeholder = st.empty()
-st.button("Start")
+if st.button("Start with task 1"):
+    st.switch_page("pages/1_stage1.py")

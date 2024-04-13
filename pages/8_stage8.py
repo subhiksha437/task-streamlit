@@ -31,7 +31,8 @@ st.button("Completed task 9")
 
 st.write(" 10. Document your findings and insights to inform strategic decision-making. ")
 st.button("Completed task 10")
-st.button("Next Stage")
+if st.button("Continue with task 9"):
+    st.switch_page("pages/9_stage9.py")
 
 
 

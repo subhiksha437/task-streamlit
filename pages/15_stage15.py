@@ -30,8 +30,8 @@ st.write(" 9. Secure commitments or term sheets from interested investors. ")
 st.button("Completed task 9")
 
 st.write(" 10. Close the investment round and allocate funds towards business growth and expansion. ")
-st.button("Completed task 10")
-st.button("Next Stage")
+if st.button("Completed task 10"):
+    st.write("**YAYYY YOU HAVE COMPLETED ALL THE STAGES!!!!**")
 
 
 

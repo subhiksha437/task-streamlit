@@ -31,7 +31,8 @@ st.button("Completed task 9")
 
 st.write(" 10. Develop a competitive strategy based on your market analysis findings. ")
 st.button("Completed task 10")
-st.button("Next Stage")
+if st.button("Continue with task 10"):
+    st.switch_page("pages/10_stage10.py")
 
 
 

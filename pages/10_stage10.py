@@ -31,7 +31,8 @@ st.button("Completed task 9")
 
 st.write(" 10. Obtain any industry-specific certifications or accreditation required for your business. ")
 st.button("Completed task 10")
-st.button("Next Stage")
+if st.button("Continue with task 11"):
+    st.switch_page("pages/11_stage11.py")
 
 
 

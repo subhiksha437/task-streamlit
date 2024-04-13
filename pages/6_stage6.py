@@ -31,7 +31,8 @@ st.button("Completed task 9")
 
 st.write(" 10. Once granted, enforce your patent rights against any infringement. ")
 st.button("Completed task 10")
-st.button("Next Stage")
+if st.button("Continue with task 7"):
+    st.switch_page("pages/7_stage7.py")
 
 
 
